@@ -1,6 +1,45 @@
 @charset "utf-8";
 /* CSS Document */
 
-#hide {
+#outer {
+	margin:auto;
+	width:30em;
+	height:30em;
+	background-color:#000;	
+	border-style:solid;
+	border-width:15px;
+	-webkit-border-radius: 500000px;
+	-moz-border-radius: 500000px;
+	border-radius: 500000px;
+	border-color:#000;
+	
+}
+
+#inner {
+	margin:auto;
+	width:30em;
+	height:30em;
+	background-color:#ccc;
+	-webkit-border-radius: 500000px;
+	-moz-border-radius: 500000px;
+	border-radius: 500000px;
+}
+
+#textcolor {
+	margin:0;
+	text-align:center;
+	padding:30px 0 0 0;
+	color:#000;
+}
+
+#hideshow {
 	float:right;	
+}
+
+.show {
+	background-color: rgba(1, 255, 255, 255);
+}
+
+.hide {
+	visibility:hidden;
 }

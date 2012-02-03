@@ -8,25 +8,30 @@
 
 <body>
 	<form>
+		<label>Property</label>
 		<select id="dropdown" name="dropdown">
-			<option id="border" value="border">Border-color</option>
-			<option id="bg" value="bg">Background-color</option>
-			<option id="color" value="color">Color</option>
+			<option id="border">Border-color</option>
+			<option id="bg">Background-color</option>
+			<option id="text">Color</option>
 		</select>
 		
-		<label for="colorchange">Color:</label>
-		<input id="colorchange">
+		<label for="color">Colour:</label>
+		<input type="color" id="color">
 		
-		<button type="submit">Change!</button>
+		<button type="submit">Apply</button>
 		
-		<button id="hide" type="submit">Hide/Show</button>
+		<button id="hideshow" type="click">Hide/Show</button>
 	</form>
 
-	
-
-
+	<div id="outer">
+		<div id="inner">
+			<h1 id="textcolor">test</h1>
+		</div>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	
+	
 	<script src="js/jqueryapp.js"></script>
 </body>
 </html>
